@@ -30,6 +30,8 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
 }
 
 .primary-link {
@@ -131,6 +133,11 @@ hr {
 
 .footer .link {
     color:white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 .social-links {
