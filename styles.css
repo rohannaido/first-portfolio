@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;500&family=Open+Sans:wght@300&display=swap');
 
 :root {
-    --primary-color: #115e59;
+    --primary-color: #047857;
     --dark-grey: #828994;
     --off-white: #e2e8f0;
 }
@@ -18,13 +18,16 @@ hr {
 }
 
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem 1rem;
 }
 
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+
+.container-project {
+    padding: 1.5rem;
 }
 
 .link {
@@ -64,7 +67,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .navigation .link {
@@ -87,7 +90,7 @@ hr {
 /* header */
 
 .hero {
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .hero .hero-img {
@@ -128,7 +131,7 @@ hr {
     padding: 2rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .footer .link {
