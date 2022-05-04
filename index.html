@@ -6,58 +6,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Rohan Naidu</title>
     <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
     <nav class="navigation">
-        <div class="nav-brand">iAmRN</div>
+        <div class="nav-brand">
+            -[ R ]-
+        </div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link link-active" href="/">home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/projects.html">projects</a>
+                <a class="link link-active" href="#projects">projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/blogs.html">blogs</a>
+                <a class="link link-active" href="#blogs">blogs</a>
             </li>
         </ul>
     </nav>
 
+    <footer class="footer">
+        <div class="footer-icons-div">
+            <ul class="social-links list-non-bullet">
+                <li class="list-item-inline"><a class="link" href="https://github.com/rohannaido/" target="_blank"><i class="bi bi-github"></i></a></li>
+                <li class="list-item-inline"><a class="link" href="https://twitter.com/rohannaido" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rohan-naidu-aa810711a/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                <li>
+                    <div class="line-horizontal">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
     <header class="hero">
+        <h1 class="hero-heading">
+            <span class="display-block text-left">Hi,</span>
+            <span class="display-block text-left">I'm Rohan,</span>
+            <span class="display-block text-left heading-inverted">Web Developer</span>
+        </h1>
         <img class="hero-img" src="images/undraw_proud_coder.svg">
-        <h1 class="hero-heading">rohan naidu the <span class="heading-inverted">web developer</span></h1>
     </header>
 
-    <section class="section ow">
-        <div class="container container-center">
-            <h1>technologies</h1>
-            <p>HTML, CSS3, Git, JavaScript, ReactJS, AWS, Linux</p>
+    <section class="section bg-offwhite">
+        <div class="container tech-div">
+            <h1>Technology Stack</h1>
+            <p>
+                <img class="badge" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+                <img class="badge" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+                <img class="badge" src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">
+            </p>
+
+            <p>
+                <img class="badge" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+                <img class="badge" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+            </p>
+            <p>
+                <img class="badge" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
+                <img class="badge" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB">
+                <!-- <img class="badge" src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"> -->
+            </p>
+            <p>
+                <img class="badge" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">
+                <!-- <img class="badge" src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"> -->
+            </p>
+            <p>
+                <img class="badge" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
+                <img class="badge" src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white">
+                <img class="badge" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+                
+            </p>
+        </div>
+        <div class="container skills-div">
+            <h1>Skills</h1>
+            <ul>
+                <li>
+                    Build responsive Website and web applications.
+                </li>
+                <li>
+                    Create Backend REST API.
+                </li>
+                <li>
+                    Deploy web applications.
+                </li>
+            </ul>
         </div>
     </section>
 
-    <section class="section">
+    <!-- PROJECTS -->
+
+    <section class="section" id="projects">
         <div class="container container-center">
-            <h1>projects</h1>
-            <p>I like to showcase my projects hasted online.</p>
-            <a class="primary-link link" href="projects.html">see projects</a>
+            <h1 class="hero-heading">Projects</h1>
+            <p>I'd like to showcase my projects hosted online.</p>
+            <ul class="project-list list-non-bullet" reversed>
+                <li>
+                    <div class="container container-center">
+                        <h1>HTML | CSS | JS</h1>
+                        <small>09 Mar 2022</small>
+                        <p>Checkout all of my HTML websites.</p>
+                        <div class="project-link-div">
+                            <a class="link primary-link" href="./html-templates/index.html" target="_blank">Visit Site</a>
+                            <a class="link secondary-link" href="">View Source Code</a>
+                        </div>    
+                    </div>
+                </li>
+                <li>
+                    <div class="container container-center container-project">
+                        <h1>Second Project</h1>
+                        <small>10 Mar 2022</small>
+                        <p>A CLI app which is a general knowledge quiz on India, built on <strong>nodeJS</strong>.</p>
+                        <div class="project-link-div">
+                            <a class="link primary-link" href="">Visit Site</a>
+                            <a class="link secondary-link" href="">View Source Code</a>
+                        </div>    
+                    </div>        
+                </li>
+                <li>
+                    <div class="container container-center">
+                        <h1>Third Project</h1>
+                        <small>11 Mar 2022</small>
+                        <p>Current Project itself is the third project, build on <strong>HTML5</strong> and <strong>CSS3</strong>.</p>
+                        <div class="project-link-div">
+                            <a class="link primary-link" href="">Visit Site</a>
+                            <a class="link secondary-link" href="">View Source Code</a>      
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 
-    <section class="section ow">
+<!-- BLOGS -->
+
+    <section class="section bg-offwhite" id="blogs">
         <div class="container container-center">
-            <h1>blogs</h1>
+            <h1 class="hero-heading">Blogs</h1>
             <p>Documenting my journey and sharing knowledge.</p>
-            <a class="secondary-link link" href="blogs.html">read blogs</a>
+            <ul class="blog-list list-non-bullet">
+                <li>
+                    <div class="container container-center">
+                        <a class="link" href="https://nervous-balmoral-6aa.notion.site/Computer-Networks-7a668388a5874faa8242c4d5e4dd57a5" target="_blank"><h1>Computer Networking for beginners</h1></a><small>10 March 2022</small>
+                        <p>This is a question answer format article on Computer Networking.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="container container-center">
+                        <a class="link" href="https://nervous-balmoral-6aa.notion.site/Promise-Async-Await-967e9a6098e84e2aa846ab3c682d0b12" target="_blank"><h1>Getting started with Promises in JavaScript</h1></a><small>09 April 2022</small>
+                        <p>This is a question answer format article on Computer Networking.</p>
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
     
-    <footer class="footer">
-        <div class="footer-header">connect with me</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="link" href="https://github.com/rohannaido/" target="_blank">GitHub</a></li>
-            <li class="list-item-inline"><a class="link" href="https://twitter.com/rohannaido" target="_blank">Twitter</a></li>
-            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rohan-naidu-aa810711a/" target="_blank">LinkedIn</a></li>
-        </ul>
-    </footer>
-</body>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            mybutton.style.display = "flex";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+    </body>
 </html>
