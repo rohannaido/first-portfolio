@@ -15,12 +15,6 @@ body {
     margin: 0px;
 }
 
-ul {
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    padding-inline-start: 0;
-}
-
 #myBtn {
     display: none;
     position: fixed;
@@ -101,13 +95,16 @@ hr {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
     /* align-items: center; */
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
 }
 
 .project-list li {
-    width: 300px;
-    min-width: 400px;
+    /* width: 300px; */
+    /* min-width: 400px; */
     border: 1px solid #047857;
     border-radius: 3rem;
     /* padding: 1rem; */
@@ -136,6 +133,8 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
 }
 
 .navigation .nav-brand {
@@ -266,10 +265,17 @@ hr {
     .hero-heading {
         margin: auto;
         margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+    .list-item-inline {
+        padding: 0;
     }
     .section {
-        margin: 2rem 2rem;
+        margin: 1rem 1rem;
         flex-direction: column;
+    }
+    .project-list li {
+        margin: 1rem 0;
     }
     .footer-icons-div {
         display: none;
