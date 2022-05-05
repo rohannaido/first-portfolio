@@ -46,7 +46,6 @@ hr {
 
 .container {
     padding: 1rem 1rem;
-    width: 100%;
 }
 
 .container-project {
@@ -184,6 +183,10 @@ hr {
     font-size: 3rem;
 }
 
+.padding-5 {
+    padding-left: 3rem;
+}
+
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color)
 }
@@ -274,11 +277,34 @@ hr {
         margin: 1rem 1rem;
         flex-direction: column;
     }
+    .padding-5 {
+        padding-left: 1rem;
+    }
     .project-list li {
         margin: 1rem 0;
     }
+
     .footer-icons-div {
+        bottom: 50vh;
+        right: 0;
+        left: auto;
+        transform: translateY(50%);
+        background-color: var(--off-white);
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+    .social-links {
+        padding: 0;
+    }
+    .social-links li {
+        padding-top: 1.5rem;
+        font-size: 1rem;
+    }
+    .line-horizontal {
         display: none;
     }
+    /* .footer-icons-div {
+        display: none;
+    } */
 
 }
